@@ -2,7 +2,12 @@
     "name": "node-red-home-assistant",
     "description": "A Node-RED Project",
     "version": "0.0.1",
-    "dependencies": {},
+    "dependencies": {
+        "node-red-contrib-home-assistant-websocket": "0.14.2",
+        "node-red-contrib-stoptimer": "0.0.7",
+        "node-red-contrib-time-range-switch": "0.6.1",
+        "node-red-node-email": "1.6.2"
+    },
     "node-red": {
         "settings": {
             "flowFile": "flows.json",
